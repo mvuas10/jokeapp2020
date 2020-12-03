@@ -4,7 +4,7 @@ export default function Toolbar(props) {
   return (
     <header id="header" className="section-header scroll">
       <a href="./">
-        <img className="icon" src={props.logo} />
+        <img className="icon" src={props.logo} alt="Furry animal" />
       </a>
 
       <nav>
