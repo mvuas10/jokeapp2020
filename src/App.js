@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import { Route } from "react-router-dom";
 
@@ -7,7 +8,7 @@ import Home from "./components/Home.js";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Toolbar logo={Logo} content="Happy end of 2010!" />
       <Route expact path="/" component={Home} />
     </div>
